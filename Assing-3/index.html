@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment 3</title>
+</head>
+
+<body style="background-color: #f8f7f5;" alink="red" vlink="orange" link="green">
+    <a href="assign2.1.html">HOME</a>
+    <h2 style="margin-left: 70%;"><u> Registration Form</u></h2>
+    <form >
+        First Name:<input style="margin-left:5%;" type="text" name="name" placeholder="Enter your First name"><br><br>
+        Last Name:<input style="margin-left:5.1%;" type="text" name="name" placeholder="Enter your Last name"><br><br>
+        Email:<input style="margin-left:7%;" type="email" name="email" placeholder="It should contain @"><br><br>
+        Mobile:<input style="margin-left:6.5%;" maxlength="10" type="mobile" name="number"placeholder="Only 10 dgits are allowed" pattern="[0-9]{10}"><br><br>
+        Gender:<input style="margin-left:6.5%;" type="radio" name="Gender">Male<input type="radio" name="Gender">Female<br><br>
+        Date Of Birth:<input style="margin-left:4%;" type="date" name="Date Of Birth" max="2024-08-13" min="2012-12-12"><br><br>
+        City:<select style="margin-left:7%;" id="city" name="city">
+            <option value="">Select a city</option>
+            <option value="Bengalore">Bengalore</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Hydrabad">Hydrabad</option>
+            <option value="Rajasthan">Rajasthan</option>
+        </select><br><br>
+        <label>Address:</label> 
+       <textarea style="margin-left:5.5%;" maxlength="500" rows="10" cols="50" ></textarea><br><br>
+        Area Pin:<input style="margin-left:6.1%;" maxlength="6" type="mobile" name="number"><br><br>
+        State:<input style="margin-left:7.4%;" type="text" name="name" placeholder="Enter your State"><br><br>
+        <label>Qualification:</label>
+        <select style="margin-left:4.3%;" name=" qualification">
+           <option> BTECH CSE</option>
+           <option> BTECH CSE CORE</option>
+           <option> BTECH CSE AIML</option>
+           <option> BTECH CSE CyberSecurity</option>
+        </select>
+        <br><br>
+
+        <label>Specialization:</label>
+        <input style="margin-left:5.2%;" type="checkbox" name="computer science">Computer Science
+        <br>
+        <input style="margin-left:10.5%;" type="checkbox" name="Information Technology">Information Technology
+        <br>
+       <input style="margin-left:10.5%;" type="checkbox" name="Computer Architecture">Computer Architecture
+        <br>
+        <input style="margin-left:10.5%;" type="checkbox" name="Tele Computer">Tele Computer
+        <br><br>
+
+        <label>Password:</label>
+        <input style="margin-left:5.3%;"type="password" name="passward" required maxlength="8" minlength="8">
+        <br>
+        <br>
+       
+        <input style="margin-left:15%;"  type="submit" name="submit" >
+         
+    </form>
+
+</body>
+
+</html>
