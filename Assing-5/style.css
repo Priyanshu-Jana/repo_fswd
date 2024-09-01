@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.card1 {
+    display: inline-block;
+    border: 2px solid purple;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 gold;
+    column-gap: 10px;
+    height: 425px;
+}
+
+.card1 img {
+    width: 100%;
+    height: 55%;
+    transition: scale 400ms;
+}
+
+.card1:hover img{
+    scale: 110%;
+}
+
+.card2 {
+    display: inline-block;
+    border: 2px solid purple;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 gold;
+    overflow: hidden;
+    height: 425px;
+}
+
+.card2 img {
+    width: 100%;
+    height: 55%;
+    transition: scale 400ms;
+}
+
+.card2:hover img{
+    scale: 110%;
+}
+
+.card3 {
+    display: inline-block;
+    border: 2px solid purple;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 gold;
+    overflow: hidden;
+    height: 425px;
+}
+
+.card3 img {
+    width: 100%;
+    height: 55%;
+    transition: scale 400ms;
+}
+
+.card3:hover img{
+    scale: 110%;
+}
+
+.card-text1 {
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin: 3px;
+}
+
+.card-text2 {
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.card-text3 {
+    font-size: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.allcards{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-4{
+    width: 200px; 
+  height: 200px; 
+  border-radius: 50%; /* Make the card circular */
+  overflow: hidden;
+}
+.col-md-4 img{
+    width: 130%; /* Make the image take up the full width of the card */
+  height: 130%; /* Make the image take up the full height of the card */
+  object-fit: cover; /* Scale the image to cover the entire card */
+  border-radius: 50%;
+}
+
+.card-title{
+    color: purple;
+}
+
+.card-text{
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.card mb-3{
+    height: 45px;
+}
